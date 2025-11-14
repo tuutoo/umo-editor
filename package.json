@@ -63,7 +63,6 @@
     "test": "NODE_NO_WARNINGS=1 vitest",
     "test:coverage": "npm run test --coverage",
     "test:watch": "npm run test --watch --coverage",
-    "prepare": "husky",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
